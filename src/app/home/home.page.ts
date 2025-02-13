@@ -11,13 +11,16 @@ import { IPregunta } from './../interfaces/interfaces';
 export class HomePage {
 
   //Zerbitzua inportatu
-  constructor() {}
+  constructor(public zerbitzua:CuestionarioService) {}
 
   //Metodo bat sortu "Erantzun" onclick egiteko
   //IGaldera bat jasoko du eta zerbitzua deituko du beharrezkoak diren eragiketak egiteko
+  erantzunOnClick(pregunta:IPregunta){
 
+  }
   //Sortu metodo bat "Gorde"ren onclick-a kudeatzeko
   //Ez du parametrorik jasotzen eta zerbitzuari deituko dio dagokion eragiketak egiteko.
+  gordeOnClick(){
 
-
+  }
 }
